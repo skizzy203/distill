@@ -1,0 +1,17 @@
+{
+  "name": "distill",
+  "version": "3.0.0",
+  "description": "Distill turns complex problems into clear decisions. Strip inherited assumptions, find the direct path, and attack your conclusions before you commit — using a chain of composable first-principles thinking skills. Start with /think.",
+  "author": {
+    "name": "Scott Wise"
+  },
+  "keywords": [
+    "first-principles",
+    "thinking",
+    "strategy",
+    "decision-making",
+    "enterprise-value",
+    "brand-strategy"
+  ],
+  "license": "MIT"
+}

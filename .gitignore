@@ -1,0 +1,15 @@
+# Generated at runtime — not shipped
+references/DESIGN.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Plugin build artifacts (keep distill.plugin out of the repo — distribute separately)
+*.plugin
+*.plugin.tmp
