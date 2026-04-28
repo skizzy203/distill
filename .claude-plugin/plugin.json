@@ -1,26 +1,11 @@
 {
-  "schema_version": "1.0",
   "name": "distill",
-  "version": "3.0.0",
-  "description": "Distill turns complex problems into clear decisions through structured thinking.",
+  "version": "3.1.0",
+  "description": "First-principles thinking system. 9 composable skills that chain together.",
   "author": {
     "name": "Scott Wise"
   },
-  "commands": [
-    {
-      "name": "think",
-      "description": "Run the Distill thinking workflow",
-      "path": "commands/think.md"
-    }
-  ],
-  "skills": [
-    "skills/amplify",
-    "skills/build",
-    "skills/decide",
-    "skills/diagnose",
-    "skills/pressure-test",
-    "skills/reframe",
-    "skills/translate",
-    "skills/understand"
-  ]
+  "homepage": "https://github.com/skizzy203/distill",
+  "repository": "https://github.com/skizzy203/distill",
+  "license": "MIT"
 }
