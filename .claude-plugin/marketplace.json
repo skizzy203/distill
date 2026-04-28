@@ -1,10 +1,12 @@
 {
+  "schema_version": "1.0",
   "plugins": [
     {
-      "name": "distill",
-      "description": "Distill turns complex problems into clear decisions through structured thinking.",
-      "repo": "https://github.com/skizzy203/distill",
-      "path": ".claude-plugin",
+      "id": "distill",
+      "name": "Distill",
+      "description": "Structured thinking system for turning complexity into clear decisions.",
+      "repo_url": "https://github.com/skizzy203/distill",
+      "manifest_path": ".claude-plugin/plugin.json",
       "version": "3.0.0"
     }
   ]
