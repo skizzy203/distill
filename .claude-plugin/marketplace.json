@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "name": "distill",
+      "description": "Distill turns complex problems into clear decisions through structured thinking.",
+      "repo": "https://github.com/skizzy203/distill",
+      "path": ".claude-plugin",
+      "version": "3.0.0"
+    }
+  ]
+}
