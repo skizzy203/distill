@@ -1,17 +1,26 @@
 {
+  "schema_version": "1.0",
   "name": "distill",
   "version": "3.0.0",
-  "description": "Distill turns complex problems into clear decisions. Strip inherited assumptions, find the direct path, and attack your conclusions before you commit — using a chain of composable first-principles thinking skills. Start with /think.",
+  "description": "Distill turns complex problems into clear decisions through structured thinking.",
   "author": {
     "name": "Scott Wise"
   },
-  "keywords": [
-    "first-principles",
-    "thinking",
-    "strategy",
-    "decision-making",
-    "enterprise-value",
-    "brand-strategy"
+  "commands": [
+    {
+      "name": "think",
+      "description": "Run the Distill thinking workflow",
+      "path": "commands/think.md"
+    }
   ],
-  "license": "MIT"
+  "skills": [
+    "skills/amplify",
+    "skills/build",
+    "skills/decide",
+    "skills/diagnose",
+    "skills/pressure-test",
+    "skills/reframe",
+    "skills/translate",
+    "skills/understand"
+  ]
 }
