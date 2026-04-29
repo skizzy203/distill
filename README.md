@@ -1,6 +1,6 @@
-# Distill 3.0
+# Distill 3.1
 
-![Version](https://img.shields.io/badge/version-3.0.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Skills](https://img.shields.io/badge/skills-8-purple) ![Platform](https://img.shields.io/badge/platform-Claude%20Cowork-orange)
+![Version](https://img.shields.io/badge/version-3.1.0-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Skills](https://img.shields.io/badge/skills-9-purple) ![Platform](https://img.shields.io/badge/platform-Claude%20Cowork-orange)
 
 **Distill turns complex problems into clear decisions.**
 
@@ -10,13 +10,16 @@ Strip inherited assumptions, find the direct path, and attack your conclusions b
 
 ## Installation
 
-1. Download or clone this repository
-2. Open Claude.ai → **Settings → Capabilities → Skills**
-3. Click **Upload skill** and select the `distill/` folder (zip it first if required)
-4. Enable the Distill plugin toggle
-5. Start a new conversation and run `/think`
+**Claude Cowork (recommended)**
+1. Go to the [Releases page](https://github.com/skizzy203/distill/releases) and download `distill.plugin`
+2. Open Claude Cowork → drag the `.plugin` file into the app or use **Settings → Plugins → Install from file**
+3. Start a new conversation and run `/think`
 
-**Cowork users:** Install via the plugin directory or load the `.plugin` file directly.
+**Claude Code / Claude.ai**
+1. Clone this repository: `git clone https://github.com/skizzy203/distill.git`
+2. Open Claude.ai → **Settings → Capabilities → Plugins** → **Install from folder**
+3. Select the `distill/` folder
+4. Run `/think` to start
 
 ---
 
@@ -61,6 +64,8 @@ Skills pass structured context to each other — each downstream skill builds on
 - `Diagnose → Translate` — Fast audit with deliverable
 - `Build → Amplify 10x → Pressure Test → Translate` — Complete product/strategy design cycle
 - `Decide → Pressure Test → Translate` — Decision with adversarial check and output
+- `Reframe → Diverge → Build` — When the problem and the approach both need resetting
+- `Diverge → Decide → Pressure Test` — Non-obvious option surfaced, evaluated, stress-tested before committing
 
 After every skill, `/think` offers the most relevant next steps. You can also jump directly to any skill by name.
 
