@@ -16,9 +16,7 @@ description: >
   plans, business systems, or structured analyses where additions need to compound existing value.
 license: MIT
 compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-metadata:
-  author: Scott Wise
-  version: 3.0.0
+version: 3.1.0
 ---
 
 # Amplify
@@ -50,7 +48,7 @@ Name the ceiling explicitly. This is what Amplify is designed to raise.
 
 ## Step 2 — Generate Candidates
 
-**CRITICAL — generate at least six additions internally before surfacing any.** The first three are always obvious — the value lives past that. Do not shortcut to three. Search across five dimensions:
+Generate candidates as a probability-weighted list. For each candidate, assign a probability (0.0–1.0) representing how commonly this type of addition is recommended for plans like this one. Require at least 2 candidates with probability below 0.10 — these are the non-obvious moves the modal response would miss. Generate at least 8 internally before selecting. Search across five dimensions:
 
 - **Leverage** — Makes existing assets produce more output without additional input
 - **Compounding** — Gets more valuable over time, not just at the point of addition

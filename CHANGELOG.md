@@ -5,6 +5,22 @@ Format: [Keep a Changelog](https://keepachangelog.com) · [Semantic Versioning](
 
 ---
 
+## [3.1.0] — 2026-04-28
+
+### New skill: Diverge
+
+**Added**
+- `skills/diverge/SKILL.md` — Escapes modal thinking via probability-weighted distribution scanning. Surfaces non-obvious cross-domain approaches the user's domain expertise would miss. Mandatory Confidence Audit section prevents hallucinated domain claims. Routes to Build, Decide, or Pressure Test.
+
+**Modified**
+- `skills/amplify/SKILL.md` — Step 2 now generates candidates as a probability-weighted list (0.0–1.0). Requires minimum 2 candidates below 0.10 threshold, 8 generated internally before selection. Replaces "generate at least six" heuristic with research-backed divergence mechanics. (Research basis: Zhang et al., arXiv:2510.01171, Stanford 2025.)
+- `skills/reframe/SKILL.md` — Step 3 uses same probability-weighted mechanics. Minimum 2 frames required below 0.10 threshold, 6 generated internally. Replaces aspirational "genuinely different" instruction with structural escape from modal distribution.
+- `commands/think.md` — Added Diverge as menu item 6, routing table trigger phrases, and chain offers after Amplify and Diverge completion.
+- `README.md` — Added Diverge to skills table and Output Contracts table.
+- `.claude-plugin/plugin.json` — Fixed validation schema: removed invalid `schema_version`, `commands`, and `skills` fields. Auto-discovery now handles both. Version bumped to 3.1.0.
+
+---
+
 ## [3.0.0] — 2026-04-20
 
 Complete ground-up rewrite. New architecture, new skill chain system, new reference structure.

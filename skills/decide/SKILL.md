@@ -12,9 +12,7 @@ description: >
   or building from scratch (use Build) — only for live decisions with real options and stakes.
 license: MIT
 compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-metadata:
-  author: Scott Wise
-  version: 3.0.0
+version: 3.1.0
 ---
 
 # Decide

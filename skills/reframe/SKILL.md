@@ -14,9 +14,7 @@ description: >
   recurs despite being solved, or the user cannot articulate what to address.
 license: MIT
 compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-metadata:
-  author: Scott Wise
-  version: 3.0.0
+version: 3.1.0
 ---
 
 # Reframe
@@ -69,9 +67,9 @@ Was this frame chosen deliberately, or inherited? Who named it? When? Under what
 
 ## Step 3 — Generate Alternative Frames
 
-Produce 3-5 genuinely different ways to frame the same situation. Not variations — real alternatives that lead to different analyses and solutions.
+Generate a probability-weighted list of alternative frames. For each, assign a probability (0.0–1.0) representing how commonly this reframing appears for situations like this one. Require at least 2 frames with probability below 0.10. Generate at least 6 internally before selecting.
 
-A useful alternative frame produces different recommended actions, not just different language for the same actions.
+A useful alternative frame produces different recommended actions, not just different language. A low-probability frame, if correct, leads to a radically different analysis — which is the point.
 
 ## Step 4 — Test Against Underlying Need
 

@@ -51,6 +51,7 @@ What kind of thinking do you need?
 3. **Decide** — Resolve a live problem or decision
 4. **Build** — Construct from zero, no inherited constraints
 5. **Amplify** — Find additions that compound, or what to cut (2x / 10x / −x)
+6. **Diverge** — Escape the modal frame, find cross-domain solutions
 
 Or just describe what you're working on and I'll route you.
 
@@ -69,6 +70,7 @@ If the user describes their need instead of picking a number, route based on the
 | "what's missing," "make this better," "10x," "what compounds," "what are we leaving on the table" | Amplify (2x/10x) |
 | "simplify this," "what should we cut," "too much going on," "what's the dead weight," "remove" | Amplify (−x) |
 | "something feels wrong," "not sure this is the right question," "we keep solving this" | Reframe |
+| "nobody's cracked this", "outside my industry", "what would [field] do", "break the pattern", "I don't know what I don't know", "cross-domain", "what would Elon do", "borrow from another industry" | Diverge |
 
 If still ambiguous after scanning, ask one clarifying question: "Are you trying to understand something, fix something, decide something, build something, or make something you already have more powerful?"
 
@@ -80,9 +82,10 @@ After any skill completes, offer contextual next steps. Always include the Trans
 - After **Diagnose** → "Want to Decide on a path forward, Build a replacement from zero, or Pressure Test these findings?"
 - After **Decide** → "Want to Pressure Test this decision before committing, or Build the solution?"
 - After **Build** → "Want to Amplify this to find what compounds it, or Pressure Test before committing?"
-- After **Amplify** → "Want to Pressure Test the amplified plan, or Translate it into a deliverable?"
+- After **Amplify** → "Want to Pressure Test the amplified plan, Diverge to find non-obvious additions from other fields, or Translate it into a deliverable?"
 - After **Pressure Test** → "Want to Amplify what survived, or Translate it into something shareable?"
 - After **Reframe** → Route immediately to the committed skill. No chain offer — Reframe routes directly.
+- After **Diverge** → "Want to Build from one of these approaches, Decide between options, or Pressure Test before committing?"
 - Always available: "Or Translate into a deliverable (doc / PDF / slides / HTML)."
 
 ## Step 6 — Chain Memory Awareness

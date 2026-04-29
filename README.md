@@ -39,6 +39,7 @@ For best results: paste your business context when prompted. Open `references/bu
 | **Decide** | Resolve a live problem using The Algorithm | Choosing between options, stuck, finding the direct path |
 | **Build** | Construct from zero with no inherited constraints | Starting from scratch, redesigning, contrarian architecture |
 | **Amplify** | Find what compounds or what to cut (2x / 10x / −x) | A plan exists. Make it more valuable, not just bigger — or find what to remove. |
+| **Diverge** | Escape the modal frame, find cross-domain solutions | Stuck in conventional thinking or need non-obvious approaches from other fields. |
 
 ### Contextual Skills — System Offers at the Right Moment
 
@@ -76,6 +77,7 @@ Every skill produces the same named sections every time. Chain Memory depends on
 | Decide | `## Problem Statement` · `## Constraint Inventory` · `## Direct Path` · `## Decision Framework` |
 | Build | `## Zero State` · `## Contrarian Vision` · `## Blueprint` · `## Smallest True Version` |
 | Amplify | `## Current Ceiling` · `## Additions` · `## Choosing Frame` |
+| Diverge | `## Physics Floor` · `## Non-Modal Options` · `## Confidence Audit` · `## Route To` |
 | Pressure Test | `## Steelman` · `## Strawman` · `## Pre-Mortem` · `## Second-Order` · `## What Survives` |
 | Reframe | `## Current Frame` · `## Alternative Frames` · `## Committed Frame` · `## Route To` |
 | Translate | Adapts to selected format — no fixed contract |
