@@ -1,21 +1,18 @@
 ---
 name: reframe
 description: >
-  This skill should be used when the user needs to question whether the right problem or concept
-  is being examined before any analytical work begins. Auto-triggered by /think when frame
-  confusion is detected. Also invocable directly — the user does not need to run /think first.
-  Runs when something feels wrong but the user cannot articulate what, when a problem keeps
-  returning despite being solved, or when the frame itself may be the constraint. Produces a
-  committed frame and routes to the appropriate thinking skill. Triggers: "I do not know where to
-  start", "something feels off", "we keep solving this and it comes back",
-  "not sure this is the right question", "I think we are solving the wrong problem",
-  "this does not feel right", "what are we actually trying to do here", "reframe this".
-  Do NOT use when the problem is clearly defined — only when the frame feels wrong, the problem
-  recurs despite being solved, or the user cannot articulate what to address.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Question whether the right problem or concept is being examined before any
+  analytical work begins. Auto-triggered by /think when frame confusion is
+  detected. Also invocable directly. Produces a committed frame and routes to
+  the appropriate thinking skill.
+when_to_use: >
+  Use when the user says: "I do not know where to start", "something feels off",
+  "we keep solving this and it comes back", "not sure this is the right
+  question", "I think we are solving the wrong problem", "this does not feel
+  right", "what are we actually trying to do here", "reframe this". Do NOT use
+  when the problem is clearly defined.
 ---
+
 
 # Reframe
 

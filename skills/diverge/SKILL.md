@@ -1,15 +1,17 @@
 ---
 name: diverge
 description: >
-  This skill should be used when the user wants to escape conventional thinking and find non-obvious
-  approaches — including cross-domain imports from fields that have already solved the structural
-  problem. Use when stuck in industry-standard thinking, when domain expertise may be limiting
-  options, or when the usual solutions are not enough. Triggers: "nobody's cracked this",
-  "outside my industry", "what would [field] do", "I don't know what I don't know",
-  "break the pattern", "contrarian approach", "help me think outside my field",
-  "what are we missing", "cross-domain", "what would Elon do", "borrow from another industry".
-version: 3.1.0
+  Escape conventional thinking and find non-obvious approaches — including
+  cross-domain imports from fields that have already solved the structural
+  problem. Use when stuck in industry-standard thinking or when domain expertise
+  may be the constraint.
+when_to_use: >
+  Use when the user says: "nobody has cracked this", "outside my industry",
+  "what would [field] do", "I do not know what I do not know", "break the
+  pattern", "contrarian approach", "help me think outside my field", "cross-
+  domain", "what would Elon do", "borrow from another industry".
 ---
+
 
 # Diverge
 

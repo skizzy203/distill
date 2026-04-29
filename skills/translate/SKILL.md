@@ -1,21 +1,18 @@
 ---
 name: translate
 description: >
-  This skill should be used when the user wants to convert any analysis or output to plain language
-  for non-expert audiences, or package it into a formatted deliverable. Offers format selection
-  (plain text, document, PDF, slides, HTML) and visual styling (4 presets, custom, or external
-  DESIGN.md file). Loads references/DESIGN.md automatically if present. Generates and saves
-  DESIGN.md for future sessions. Terminal skill — nothing chains after it. Consumes other skills'
-  output contracts. Triggers: "explain simply", "no jargon", "like I am 12", "ELI5",
-  "make it accessible", "plain language", "non-expert audience", "break it down for",
-  "how do I explain this to", "turn this into a document", "create a deliverable",
-  "format this", "make a PDF", "build slides", "package this".
-  Do NOT generate new analysis — Translate only converts existing analysis (from a prior skill
-  or provided by the user) into plain language or a formatted deliverable.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Convert any analysis or output to plain language for non-expert audiences, or
+  package it into a formatted deliverable. Format options: plain text, document,
+  PDF, slides, HTML. Loads references/DESIGN.md automatically if present.
+  Terminal skill — nothing chains after it.
+when_to_use: >
+  Use when the user says: "explain simply", "no jargon", "like I am 12", "ELI5",
+  "make it accessible", "plain language", "non-expert audience", "break it down
+  for", "how do I explain this to", "turn this into a document", "create a
+  deliverable", "format this", "make a PDF", "build slides", "package this". Do
+  NOT generate new analysis — only converts existing output.
 ---
+
 
 # Translate
 

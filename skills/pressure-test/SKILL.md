@@ -1,19 +1,18 @@
 ---
 name: pressure-test
 description: >
-  This skill should be used when the user wants to attack any conclusion, plan, or decision from
-  three angles before acting on it — Dialectical Test (Steelman vs. Strawman simultaneously),
-  Pre-mortem (assume failure, work backward), and Second-order consequences (assume success, find
-  what breaks). Only what survives all three is worth committing to. Run after Decide, Build, or
-  any skill that produces an actionable conclusion. Triggers: "pressure test this", "stress test",
-  "attack this", "is this actually right", "what could go wrong", "challenge this", "poke holes",
-  "devil's advocate", "what am I missing", "test this before I commit", "pre-mortem".
-  Do NOT use to explore a topic or generate initial analysis — run only after Decide, Build,
-  Amplify, or any skill that produces an actionable conclusion worth attacking before commitment.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Attack any conclusion, plan, or decision from three angles before acting —
+  Dialectical Test (Steelman vs. Strawman), Pre-mortem (assume failure, work
+  backward), Second-order consequences (assume success, find what breaks). Run
+  after Decide, Build, or Amplify.
+when_to_use: >
+  Use when the user says: "pressure test this", "stress test", "attack this",
+  "is this actually right", "what could go wrong", "challenge this", "poke
+  holes", "devil's advocate", "what am I missing", "test this before I commit",
+  "pre-mortem". Do NOT use to explore a topic or generate initial analysis — run
+  only after a skill produces an actionable conclusion.
 ---
+
 
 # Pressure Test
 

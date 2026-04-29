@@ -1,19 +1,18 @@
 ---
 name: decide
 description: >
-  This skill should be used when the user needs to resolve a live problem or decision by stripping
-  assumptions, interrogating every constraint for whether it is real or inherited, finding the most
-  direct path, and applying The Algorithm before committing. Distinct from Reframe (which questions
-  the problem frame) and Diagnose (which audits an existing system). Triggers: "solve", "decide",
-  "stuck on", "what should I do", "what is the simplest way", "help me think through",
-  "I cannot figure out how to", "overcomplicating", "what is the right move",
-  "I need to make a decision", "should I", "which option", "what is the move".
-  Do NOT use for understanding concepts (use Understand), auditing systems (use Diagnose),
-  or building from scratch (use Build) — only for live decisions with real options and stakes.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Resolve a live problem or decision by stripping assumptions, interrogating
+  every constraint for whether it is real or inherited, finding the most direct
+  path, and applying The Algorithm before committing. Distinct from Reframe
+  (questions the frame) and Diagnose (audits existing systems).
+when_to_use: >
+  Use when the user says: "solve", "decide", "stuck on", "what should I do",
+  "what is the simplest way", "help me think through", "overcomplicating", "what
+  is the right move", "I need to make a decision", "should I", "which option",
+  "what is the move". Do NOT use for understanding concepts (Understand),
+  auditing systems (Diagnose), or building from scratch (Build).
 ---
+
 
 # Decide
 

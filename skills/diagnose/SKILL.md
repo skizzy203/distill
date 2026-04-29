@@ -1,20 +1,18 @@
 ---
 name: diagnose
 description: >
-  This skill should be used when the user wants to audit any existing system, offer, process, or
-  workflow — stripping it to irreducible truths, identifying internal waste, and mapping external
-  dependencies to find where the ceiling is set by something outside their control. Applies the
-  Idiot Index to reveal where others capture value in the chain. Distinct from Decide (which asks
-  what to do next) — Diagnose looks at what exists and what constrains it. Triggers: "audit this",
-  "what is wrong with", "find the waste", "it is too slow or too expensive", "what would you cut",
-  "what is broken", "should we own this", "are we too dependent on", "vertical integration",
-  "who is capturing value in our chain", "what is our moat", "Idiot Index", "what should we control".
-  Do NOT use for future decisions (use Decide) or zero-to-one construction (use Build) —
-  Diagnose only audits systems, offers, and processes that already exist.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Audit any existing system, offer, process, or workflow — stripping it to
+  irreducible truths, identifying internal waste, and mapping external
+  dependencies to find where the ceiling is set externally. Applies the Idiot
+  Index to reveal where others capture value in the chain.
+when_to_use: >
+  Use when the user says: "audit this", "what is wrong with", "find the waste",
+  "too slow or too expensive", "what would you cut", "what is broken", "should
+  we own this", "are we too dependent on", "vertical integration", "who is
+  capturing value in our chain", "what is our moat", "Idiot Index". Do NOT use
+  for future decisions (Decide) or zero-to-one construction (Build).
 ---
+
 
 # Diagnose
 

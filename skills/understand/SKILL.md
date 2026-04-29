@@ -1,19 +1,18 @@
 ---
 name: understand
 description: >
-  This skill should be used when the user wants to strip any concept, belief, field, or subject
-  to what is actually true, then rebuild from only what survives. Applies the Physics/Economics
-  Floor Test to distinguish genuinely immutable constraints from convention. Use when questioning
-  a concept, entering a new field before learning it, stress-testing an existing belief, or
-  preparing to teach something without passing on inherited assumptions. Triggers: "understand",
-  "learn", "break this down", "what is true about", "strip the assumptions", "first principles",
-  "what does X actually mean", "entering a new field", "what should I know before studying this".
-  Do NOT use for task execution, code help, content creation, or factual questions —
-  only for conceptual strip-down of beliefs, frameworks, or fields of knowledge.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Strip any concept, belief, field, or subject to what is actually true, then
+  rebuild from only what survives. Applies the Physics/Economics Floor Test to
+  distinguish genuinely immutable constraints from convention. Use when entering
+  a new field or stress-testing an existing belief.
+when_to_use: >
+  Use when the user says: "understand", "learn", "break this down", "what is
+  true about", "strip the assumptions", "first principles", "what does X
+  actually mean", "entering a new field", "what should I know before studying
+  this". Do NOT use for task execution, code help, content creation, or factual
+  questions — only for conceptual strip-down of beliefs or fields.
 ---
+
 
 # Understand
 

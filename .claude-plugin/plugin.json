@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "distill",
   "version": "3.1.0",
   "description": "First-principles thinking system. 9 composable skills that chain together.",
@@ -7,5 +8,14 @@
   },
   "homepage": "https://github.com/skizzy203/distill",
   "repository": "https://github.com/skizzy203/distill",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["first-principles", "strategy", "thinking", "business", "decision-making"],
+  "userConfig": {
+    "businessContext": {
+      "type": "string",
+      "title": "Business Context",
+      "description": "Your company, ICP, positioning, and core offer. Distill injects this as background context into first-principles analysis. Example: B2B SaaS selling to mid-market CFOs. Core offer: automated reconciliation.",
+      "required": false
+    }
+  }
 }

@@ -1,20 +1,18 @@
 ---
 name: build
 description: >
-  This skill should be used when the user wants to construct any business, system, offer, or
-  strategy from scratch using only fundamental truths — no industry conventions, no inherited
-  approaches. Validates every constraint before accepting it and inverts the assumptions that
-  produce velocity and compounding advantage. Distinct from Decide (which resolves what to do) —
-  Build constructs the actual thing from zero. Triggers: "start from scratch", "rebuild",
-  "if we built this today", "contrarian version", "from zero", "ignore how it is done",
-  "redesign", "what would you make", "build this from first principles",
-  "what would shock the industry", "no legacy constraints".
-  Do NOT use if a system exists and needs improvement (use Diagnose) or a decision needs
-  making (use Decide) — Build is strictly for zero-to-one construction with no legacy constraints.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Construct any business, system, offer, or strategy from scratch using only
+  fundamental truths — no industry conventions, no inherited approaches.
+  Validates every constraint before accepting it. Distinct from Decide (resolves
+  what to do) — Build constructs the actual thing from zero.
+when_to_use: >
+  Use when the user says: "start from scratch", "rebuild", "if we built this
+  today", "contrarian version", "from zero", "ignore how it is done",
+  "redesign", "build this from first principles", "what would shock the
+  industry", "no legacy constraints". Do NOT use if a system exists and needs
+  improvement (use Diagnose) or a decision needs making (use Decide).
 ---
+
 
 # Build
 

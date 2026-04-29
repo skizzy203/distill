@@ -1,23 +1,21 @@
 ---
 name: amplify
 description: >
-  This skill should be used when the user wants to find the highest-leverage additions that make an
-  existing plan compoundingly more valuable — not just bigger, but multiplicatively better. Evaluates
-  additions on accretion, innovation, velocity impact, and buildability. Ranks three additions with
-  choosing criteria. Runs after any thinking skill or standalone with any plan the user brings. Two
-  modes: 2x (tactical additions) and 10x (paradigm-level structural moves that load the strategy
-  catalog). Default is 2x. Triggers: "what are we missing", "make this stronger",
-  "what would make this 10x better", "what is the smartest addition",
-  "what are we leaving on the table", "what would change everything",
-  "what is the move nobody is making", "what would make this truly compelling",
-  "amplify this", "compound this", "simplify this plan", "what should we cut",
-  "we have too much going on", "what's the dead weight here".
-  Do NOT use for editing, proofreading, or creative writing improvement — only for strategic
-  plans, business systems, or structured analyses where additions need to compound existing value.
-license: MIT
-compatibility: "Designed for Claude.ai Cowork mode. The /think command requires Cowork plugin runtime. Core skills function in Claude Code and Claude.ai."
-version: 3.1.0
+  Find the highest-leverage additions that make an existing plan compoundingly
+  more valuable — not just bigger, but multiplicatively better. Evaluates
+  additions on accretion, innovation, velocity impact, and buildability. Runs
+  after any thinking skill or standalone. Two modes: 2x (tactical) and 10x
+  (paradigm-level structural moves).
+when_to_use: >
+  Use when the user asks: "what are we missing", "make this stronger", "what
+  would make this 10x better", "what is the smartest addition", "what are we
+  leaving on the table", "what would change everything", "the move nobody is
+  making", "amplify this", "compound this", "simplify this plan", "what should
+  we cut", "we have too much going on". Do NOT use for editing, proofreading, or
+  creative writing — only for strategic plans, business systems, or structured
+  analyses.
 ---
+
 
 # Amplify
 
