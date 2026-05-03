@@ -5,6 +5,25 @@ Format: [Keep a Changelog](https://keepachangelog.com) · [Semantic Versioning](
 
 ---
 
+## [3.2.0] — 2026-05-03
+
+### Visual Layer (PRD v0.5.0)
+
+**Added**
+- `references/visual-primitives.md` — New reference file loaded by Translate when option 6 (System Map) fires. Contains 8 node types mapped to Mermaid native shapes, 5 edge types, render templates for all 9 diagram types (Flowchart, Sankey, Quadrant, Wardley, Mindmap, Timeline), DESIGN.md→themeVariables derivation rules, animation spec for Diagnose+Build chain morph, interactive side panel JS pattern, Strategic Insight Layer template, and extension instructions for domain-specific primitives.
+- `skills/translate/SKILL.md` — Option 6 (System Map) in Step 3 format menu. Full System Map Render section: source-skill-to-diagram mapping, DESIGN.md theme injection, animated AS-IS→TO-BE morph (Diagnose+Build chain, ≤12 nodes), interactive node click side panel, Strategic Insight Layer (3-line block from Output Contracts). Power-user "full stack" mode (up to 4 diagram types per artifact).
+- `references/DESIGN.md` — Section 10 (Mermaid Theme) added with Builder Branding Co pre-derived `themeVariables`: `primaryColor: #4B5563`, `lineColor: #0EA5E9`, `background: #050810`, `look: handDrawn`, `layout: elk`.
+- `references/business-context-template.md` — Optional "What tools and systems run the business?" question added to Operations section. Populates `[SYSTEM]` nodes in Flowchart renders and component layers in Wardley Maps.
+
+**Modified**
+- `skills/translate/SKILL.md` — Step 4 style menu gains option 6 (Builder Branding Co preset). DESIGN.md generation standard updated from 9-section to 10-section (adds Mermaid Theme). Builder Branding Co preset spec included. Frontmatter description updated to mention System Map.
+- `.claude-plugin/plugin.json` — Version bumped to 3.2.0.
+- `.claude-plugin/marketplace.json` — Version bumped to 3.2.0.
+
+**Architecture note:** Zero new skills. Zero new menu surfaces outside Translate. The visual layer slots entirely inside Translate's Step 5. Core 8-skill architecture unchanged.
+
+---
+
 ## [3.1.0] — 2026-04-28
 
 ### New skill: Diverge

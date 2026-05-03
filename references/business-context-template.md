@@ -58,6 +58,10 @@ Delete the instructions and leave only your answers. Partial context is fine.
 **How do you actually deliver? What happens from signed deal to completed job?**
 <!-- e.g. Client signs → kickoff call → 2-week brand sprint → presentation → revision round → handoff. -->
 
+**What tools and systems run the business?** *(Optional)*
+<!-- CRM, scheduling, payments, communication, automation, fulfillment — just list them, no detail needed. -->
+<!-- e.g. HubSpot, Calendly, Stripe, Slack, Zapier, Notion -->
+
 ---
 
 ## Where Things Break

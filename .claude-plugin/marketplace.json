@@ -7,7 +7,7 @@
       "description": "Structured thinking system for turning complexity into clear decisions.",
       "repo_url": "https://github.com/skizzy203/distill",
       "manifest_path": ".claude-plugin/plugin.json",
-      "version": "3.0.0"
+      "version": "3.2.0"
     }
   ]
 }
